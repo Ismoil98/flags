@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body, p, img, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.state {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: medium;
+  color: blue;
+}
+
+.flag1 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 596px;
+  background-image: url(../images/us_star.gif);
+  background-repeat: no-repeat;
+  background-image: linear-gradient( to top,
+    red 0px,
+    red 46px,
+    white 46px,
+    white 92px,
+    red 92px,
+    red 138px,
+    white 138px,
+    white 184px,
+    red 184px,
+    red 230px,
+    white 230px,
+    white 276px,
+    red 276px,
+    red 322px,
+    white 322px,
+    white 368px,
+    red 368px,
+    red 414px,
+    white 414px,
+    white 460px,
+    red 460px,
+    red 504px,
+    white 504px,
+    white 550px,
+    red 550px,
+    red 596px);
+}
+
+/* The Egyptian flag */
+
+.flag2 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 596px;
+  background-image: url(../images/us_star.gif);
+  background-repeat: no-repeat;
+  background-image: linear-gradient( to top,
+    red 0px,
+    red 200px,
+    white 200px,
+    white 400px,
+    black 400px,
+    black 600px );
+}
+
+.flag3 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 596px;
+  background-image: url(../images/canada-flag.png);
+  background-repeat: no-repeat;
+  background-position: center center, center center;
+  background-image: linear-gradient( to left,
+    red 0px,
+    red 333px,
+    yellow 333px,
+    yellow 666px,
+    blue 666px,
+    blue 1000px );
+}
+
+.flag4 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 596px;
+  background-image: url(../images/us_star.gif);
+  background-repeat: no-repeat;
+  background-image: linear-gradient( to bottom,
+    black 0px,
+    black 200px,
+    red 200px,
+    red 400px,
+    yellow 400px,
+    yellow 600px );
+}
+
+.flag5 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 596px;
+  background-image: url(../images/us_star.gif);
+  background-repeat: no-repeat;
+  background-image: linear-gradient( to bottom,
+    rgb(85, 209, 247) 0px,
+    rgb(85, 209, 247) 190px,
+    red 190px,
+    red 200px,
+    white 200px,
+    white 390px,
+    red 390px,
+    red 400px,
+    rgb(47, 201, 47) 400px,
+    rgb(47, 201, 47) 600px );
+}
